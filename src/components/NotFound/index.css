@@ -1,0 +1,12 @@
+/* Write your CSS code here */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.logo {
+  width: 200px;
+}

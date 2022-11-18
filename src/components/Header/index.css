@@ -1,0 +1,50 @@
+/* Write your CSS code here */
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.wave-img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.menu-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-link {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 18px;
+  }
+  .nav-link {
+    font-size: 18px;
+  }
+}
